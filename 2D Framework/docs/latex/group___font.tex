@@ -1,0 +1,91 @@
+\hypertarget{group___font}{\section{Font Handling}
+\label{group___font}\index{Font Handling@{Font Handling}}
+}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_framework_8h_a6b6635274dbcf57e29a0140cd8cf0305}{D\-E\-C\-L\-D\-I\-R} int \hyperlink{group___font_ga4c1c55d8dd2fa635481f8fc088fb04a1}{Load\-Font} (const char $\ast$a\-\_\-cc\-Font\-File)
+\begin{DoxyCompactList}\small\item\em Loads a font. \end{DoxyCompactList}\item 
+\hyperlink{_framework_8h_a6b6635274dbcf57e29a0140cd8cf0305}{D\-E\-C\-L\-D\-I\-R} void \hyperlink{group___font_gaa2cfaf5adb82019dab223e4e523a5c1a}{Draw\-String} (const char $\ast$a\-\_\-cc\-Text, float $\ast$a\-\_\-f\-Pos, float $\ast$a\-\_\-f\-Colour)
+\begin{DoxyCompactList}\small\item\em Draws a string of text. \end{DoxyCompactList}\item 
+\hyperlink{_framework_8h_a6b6635274dbcf57e29a0140cd8cf0305}{D\-E\-C\-L\-D\-I\-R} void \hyperlink{group___font_ga5832b626753b26d77b572d6b5f03fc09}{Set\-Font} (int a\-\_\-i\-I\-D)
+\begin{DoxyCompactList}\small\item\em Sets the current font. \end{DoxyCompactList}\item 
+\hyperlink{_framework_8h_a6b6635274dbcf57e29a0140cd8cf0305}{D\-E\-C\-L\-D\-I\-R} int \hyperlink{group___font_ga74bb692ecc3244adc6f80e65559d2f0a}{Get\-Font} ()
+\begin{DoxyCompactList}\small\item\em Get font I\-D. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Handles font rendering 
+
+\subsection{Function Documentation}
+\hypertarget{group___font_gaa2cfaf5adb82019dab223e4e523a5c1a}{\index{Font Handling@{Font Handling}!Draw\-String@{Draw\-String}}
+\index{Draw\-String@{Draw\-String}!Font Handling@{Font Handling}}
+\subsubsection[{Draw\-String}]{\setlength{\rightskip}{0pt plus 5cm}{\bf D\-E\-C\-L\-D\-I\-R} void Draw\-String (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{a\-\_\-cc\-Text, }
+\item[{float $\ast$}]{a\-\_\-f\-Pos, }
+\item[{float $\ast$}]{a\-\_\-f\-Colour}
+\end{DoxyParamCaption}
+)}}\label{group___font_gaa2cfaf5adb82019dab223e4e523a5c1a}
+
+
+Draws a string of text. 
+
+Draws a string of text
+
+
+\begin{DoxyParams}{Parameters}
+{\em a\-\_\-cc\-Text} & String of characters to draw \\
+\hline
+{\em a\-\_\-f\-Pos} & Float array for the position of the upper left corner of the string \\
+\hline
+{\em a\-\_\-f\-Colour} & Float array of the colour to draw the string \\
+\hline
+\end{DoxyParams}
+\hypertarget{group___font_ga74bb692ecc3244adc6f80e65559d2f0a}{\index{Font Handling@{Font Handling}!Get\-Font@{Get\-Font}}
+\index{Get\-Font@{Get\-Font}!Font Handling@{Font Handling}}
+\subsubsection[{Get\-Font}]{\setlength{\rightskip}{0pt plus 5cm}{\bf D\-E\-C\-L\-D\-I\-R} int Get\-Font (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{group___font_ga74bb692ecc3244adc6f80e65559d2f0a}
+
+
+Get font I\-D. 
+
+Returns the current fonts I\-D. \hypertarget{group___font_ga4c1c55d8dd2fa635481f8fc088fb04a1}{\index{Font Handling@{Font Handling}!Load\-Font@{Load\-Font}}
+\index{Load\-Font@{Load\-Font}!Font Handling@{Font Handling}}
+\subsubsection[{Load\-Font}]{\setlength{\rightskip}{0pt plus 5cm}{\bf D\-E\-C\-L\-D\-I\-R} int Load\-Font (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{a\-\_\-cc\-Font\-File}
+\end{DoxyParamCaption}
+)}}\label{group___font_ga4c1c55d8dd2fa635481f8fc088fb04a1}
+
+
+Loads a font. 
+
+Loads a font file and the I\-D as an integer.
+
+
+\begin{DoxyParams}{Parameters}
+{\em a\-\_\-cc\-Font\-File} & Path to the font file \\
+\hline
+\end{DoxyParams}
+\hypertarget{group___font_ga5832b626753b26d77b572d6b5f03fc09}{\index{Font Handling@{Font Handling}!Set\-Font@{Set\-Font}}
+\index{Set\-Font@{Set\-Font}!Font Handling@{Font Handling}}
+\subsubsection[{Set\-Font}]{\setlength{\rightskip}{0pt plus 5cm}{\bf D\-E\-C\-L\-D\-I\-R} void Set\-Font (
+\begin{DoxyParamCaption}
+\item[{int}]{a\-\_\-i\-I\-D}
+\end{DoxyParamCaption}
+)}}\label{group___font_ga5832b626753b26d77b572d6b5f03fc09}
+
+
+Sets the current font. 
+
+Sets the font to be used for drawing.
+
+
+\begin{DoxyParams}{Parameters}
+{\em a\-\_\-i\-I\-D} & Font I\-D to switch to \\
+\hline
+\end{DoxyParams}

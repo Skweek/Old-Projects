@@ -1,0 +1,190 @@
+\hypertarget{group___layouts}{\section{Layout Handling}
+\label{group___layouts}\index{Layout Handling@{Layout Handling}}
+}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_framework_8h_a6b6635274dbcf57e29a0140cd8cf0305}{D\-E\-C\-L\-D\-I\-R} int \hyperlink{group___layouts_ga4bd47317d687a02300c0831001457cca}{Load\-Layout} (const char $\ast$a\-\_\-cc\-Layout\-File)
+\begin{DoxyCompactList}\small\item\em Loads a layout file. \end{DoxyCompactList}\item 
+\hyperlink{_framework_8h_a6b6635274dbcf57e29a0140cd8cf0305}{D\-E\-C\-L\-D\-I\-R} void \hyperlink{group___layouts_gacf9c1459b355fa299f3805ba951be57c}{Set\-Button\-Function} (int a\-\_\-i\-I\-D, std\-::function$<$ void()$>$ function)
+\begin{DoxyCompactList}\small\item\em Sets a buttons click event. \end{DoxyCompactList}\item 
+\hyperlink{_framework_8h_a6b6635274dbcf57e29a0140cd8cf0305}{D\-E\-C\-L\-D\-I\-R} void \hyperlink{group___layouts_ga8e125c0d79f1bfe0176a8fb11e28ab72}{Set\-Label\-Variable} (int a\-\_\-i\-I\-D, int a\-\_\-i\-Type, void $\ast$p)
+\begin{DoxyCompactList}\small\item\em Sets a labels variable. \end{DoxyCompactList}\item 
+\hyperlink{_framework_8h_a6b6635274dbcf57e29a0140cd8cf0305}{D\-E\-C\-L\-D\-I\-R} void \hyperlink{group___layouts_gacae2bde29f276c6c614b1d3c7d4089d7}{Set\-Meter\-Variable} (int a\-\_\-i\-I\-D, void $\ast$p)
+\begin{DoxyCompactList}\small\item\em Sets a meters variable. \end{DoxyCompactList}\item 
+\hyperlink{_framework_8h_a6b6635274dbcf57e29a0140cd8cf0305}{D\-E\-C\-L\-D\-I\-R} void \hyperlink{group___layouts_ga56ad270811b7083a1a51998845c8b442}{Set\-Meter\-Function} (int a\-\_\-i\-I\-D, void($\ast$p)())
+\begin{DoxyCompactList}\small\item\em Sets a meters update event. \end{DoxyCompactList}\item 
+\hyperlink{_framework_8h_a6b6635274dbcf57e29a0140cd8cf0305}{D\-E\-C\-L\-D\-I\-R} void \hyperlink{group___layouts_gaa9ee3f6890e38f10a0dc34c779c1a790}{Set\-Meter\-Min\-Max} (int a\-\_\-i\-I\-D, float $\ast$a\-\_\-f\-Values)
+\begin{DoxyCompactList}\small\item\em Sets a meters min and max values. \end{DoxyCompactList}\item 
+\hyperlink{_framework_8h_a6b6635274dbcf57e29a0140cd8cf0305}{D\-E\-C\-L\-D\-I\-R} void \hyperlink{group___layouts_ga8e3cea2b3e8c120233cccfdf4270e418}{Set\-Layout} (int a\-\_\-i\-I\-D)
+\begin{DoxyCompactList}\small\item\em Sets the current layout. \end{DoxyCompactList}\item 
+\hyperlink{_framework_8h_a6b6635274dbcf57e29a0140cd8cf0305}{D\-E\-C\-L\-D\-I\-R} void \hyperlink{group___layouts_ga3dfaacedaa3d3a3f11dc642523de12e6}{Toggle\-Layout\-Drawing} (bool a\-\_\-b\-Toggle)
+\begin{DoxyCompactList}\small\item\em Toggles drawing layouts. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Handles the loading, updating and drawing of layouts 
+
+\subsection{Function Documentation}
+\hypertarget{group___layouts_ga4bd47317d687a02300c0831001457cca}{\index{Layout Handling@{Layout Handling}!Load\-Layout@{Load\-Layout}}
+\index{Load\-Layout@{Load\-Layout}!Layout Handling@{Layout Handling}}
+\subsubsection[{Load\-Layout}]{\setlength{\rightskip}{0pt plus 5cm}{\bf D\-E\-C\-L\-D\-I\-R} int Load\-Layout (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{a\-\_\-cc\-Layout\-File}
+\end{DoxyParamCaption}
+)}}\label{group___layouts_ga4bd47317d687a02300c0831001457cca}
+
+
+Loads a layout file. 
+
+Loads a layout file and returns the I\-D as an integer.
+
+
+\begin{DoxyParams}{Parameters}
+{\em a\-\_\-cc\-Layout\-File} & Path to the layout file \\
+\hline
+\end{DoxyParams}
+\hypertarget{group___layouts_gacf9c1459b355fa299f3805ba951be57c}{\index{Layout Handling@{Layout Handling}!Set\-Button\-Function@{Set\-Button\-Function}}
+\index{Set\-Button\-Function@{Set\-Button\-Function}!Layout Handling@{Layout Handling}}
+\subsubsection[{Set\-Button\-Function}]{\setlength{\rightskip}{0pt plus 5cm}{\bf D\-E\-C\-L\-D\-I\-R} void Set\-Button\-Function (
+\begin{DoxyParamCaption}
+\item[{int}]{a\-\_\-i\-I\-D, }
+\item[{std\-::function$<$ void()$>$}]{function}
+\end{DoxyParamCaption}
+)}}\label{group___layouts_gacf9c1459b355fa299f3805ba951be57c}
+
+
+Sets a buttons click event. 
+
+Sets the specified layout button's On\-Click event. The correct layout must first be selected using \hyperlink{group___layouts_ga8e3cea2b3e8c120233cccfdf4270e418}{Set\-Layout}
+
+
+\begin{DoxyParams}{Parameters}
+{\em a\-\_\-i\-I\-D} & The buttons I\-D \\
+\hline
+{\em function} & Pointer to a function to be assigned \\
+\hline
+\end{DoxyParams}
+\hypertarget{group___layouts_ga8e125c0d79f1bfe0176a8fb11e28ab72}{\index{Layout Handling@{Layout Handling}!Set\-Label\-Variable@{Set\-Label\-Variable}}
+\index{Set\-Label\-Variable@{Set\-Label\-Variable}!Layout Handling@{Layout Handling}}
+\subsubsection[{Set\-Label\-Variable}]{\setlength{\rightskip}{0pt plus 5cm}{\bf D\-E\-C\-L\-D\-I\-R} void Set\-Label\-Variable (
+\begin{DoxyParamCaption}
+\item[{int}]{a\-\_\-i\-I\-D, }
+\item[{int}]{a\-\_\-i\-Type, }
+\item[{void $\ast$}]{p}
+\end{DoxyParamCaption}
+)}}\label{group___layouts_ga8e125c0d79f1bfe0176a8fb11e28ab72}
+
+
+Sets a labels variable. 
+
+Sets the specified layout label's variable to get a value from. The correct layout must first be selected using \hyperlink{group___layouts_ga8e3cea2b3e8c120233cccfdf4270e418}{Set\-Layout}
+
+
+\begin{DoxyParams}{Parameters}
+{\em a\-\_\-i\-I\-D} & The labels I\-D \\
+\hline
+{\em a\-\_\-i\-Type} & The variables type \\
+\hline
+{\em p} & Pointer to a variable to be assigned \\
+\hline
+\end{DoxyParams}
+\hypertarget{group___layouts_ga8e3cea2b3e8c120233cccfdf4270e418}{\index{Layout Handling@{Layout Handling}!Set\-Layout@{Set\-Layout}}
+\index{Set\-Layout@{Set\-Layout}!Layout Handling@{Layout Handling}}
+\subsubsection[{Set\-Layout}]{\setlength{\rightskip}{0pt plus 5cm}{\bf D\-E\-C\-L\-D\-I\-R} void Set\-Layout (
+\begin{DoxyParamCaption}
+\item[{int}]{a\-\_\-i\-I\-D}
+\end{DoxyParamCaption}
+)}}\label{group___layouts_ga8e3cea2b3e8c120233cccfdf4270e418}
+
+
+Sets the current layout. 
+
+Sets the layout to be used for drawing and for setting layout elements information.
+
+
+\begin{DoxyParams}{Parameters}
+{\em a\-\_\-i\-I\-D} & The layout I\-D \\
+\hline
+\end{DoxyParams}
+\hypertarget{group___layouts_ga56ad270811b7083a1a51998845c8b442}{\index{Layout Handling@{Layout Handling}!Set\-Meter\-Function@{Set\-Meter\-Function}}
+\index{Set\-Meter\-Function@{Set\-Meter\-Function}!Layout Handling@{Layout Handling}}
+\subsubsection[{Set\-Meter\-Function}]{\setlength{\rightskip}{0pt plus 5cm}{\bf D\-E\-C\-L\-D\-I\-R} void Set\-Meter\-Function (
+\begin{DoxyParamCaption}
+\item[{int}]{a\-\_\-i\-I\-D, }
+\item[{void($\ast$)()}]{p}
+\end{DoxyParamCaption}
+)}}\label{group___layouts_ga56ad270811b7083a1a51998845c8b442}
+
+
+Sets a meters update event. 
+
+Sets the specified layout meter's function to be called when the meter value hits the minimum or maximum. The correct layout must first be selected using \hyperlink{group___layouts_ga8e3cea2b3e8c120233cccfdf4270e418}{Set\-Layout}
+
+
+\begin{DoxyParams}{Parameters}
+{\em a\-\_\-i\-I\-D} & The meters I\-D \\
+\hline
+{\em p} & Pointer to a function to be assigned \\
+\hline
+\end{DoxyParams}
+\hypertarget{group___layouts_gaa9ee3f6890e38f10a0dc34c779c1a790}{\index{Layout Handling@{Layout Handling}!Set\-Meter\-Min\-Max@{Set\-Meter\-Min\-Max}}
+\index{Set\-Meter\-Min\-Max@{Set\-Meter\-Min\-Max}!Layout Handling@{Layout Handling}}
+\subsubsection[{Set\-Meter\-Min\-Max}]{\setlength{\rightskip}{0pt plus 5cm}{\bf D\-E\-C\-L\-D\-I\-R} void Set\-Meter\-Min\-Max (
+\begin{DoxyParamCaption}
+\item[{int}]{a\-\_\-i\-I\-D, }
+\item[{float $\ast$}]{a\-\_\-f\-Values}
+\end{DoxyParamCaption}
+)}}\label{group___layouts_gaa9ee3f6890e38f10a0dc34c779c1a790}
+
+
+Sets a meters min and max values. 
+
+Sets the specified layout meter's minimum and maximum allowed values. The correct layout must first be selected using \hyperlink{group___layouts_ga8e3cea2b3e8c120233cccfdf4270e418}{Set\-Layout}
+
+
+\begin{DoxyParams}{Parameters}
+{\em a\-\_\-i\-I\-D} & The meters I\-D \\
+\hline
+{\em a\-\_\-f\-Values} & Float array containing the min and max values \\
+\hline
+\end{DoxyParams}
+\hypertarget{group___layouts_gacae2bde29f276c6c614b1d3c7d4089d7}{\index{Layout Handling@{Layout Handling}!Set\-Meter\-Variable@{Set\-Meter\-Variable}}
+\index{Set\-Meter\-Variable@{Set\-Meter\-Variable}!Layout Handling@{Layout Handling}}
+\subsubsection[{Set\-Meter\-Variable}]{\setlength{\rightskip}{0pt plus 5cm}{\bf D\-E\-C\-L\-D\-I\-R} void Set\-Meter\-Variable (
+\begin{DoxyParamCaption}
+\item[{int}]{a\-\_\-i\-I\-D, }
+\item[{void $\ast$}]{p}
+\end{DoxyParamCaption}
+)}}\label{group___layouts_gacae2bde29f276c6c614b1d3c7d4089d7}
+
+
+Sets a meters variable. 
+
+Sets the specified layout meter's variable to get a value from. The correct layout must first be selected using \hyperlink{group___layouts_ga8e3cea2b3e8c120233cccfdf4270e418}{Set\-Layout}
+
+
+\begin{DoxyParams}{Parameters}
+{\em a\-\_\-i\-I\-D} & The meters I\-D \\
+\hline
+{\em p} & Pointer to a variable to be assigned \\
+\hline
+\end{DoxyParams}
+\hypertarget{group___layouts_ga3dfaacedaa3d3a3f11dc642523de12e6}{\index{Layout Handling@{Layout Handling}!Toggle\-Layout\-Drawing@{Toggle\-Layout\-Drawing}}
+\index{Toggle\-Layout\-Drawing@{Toggle\-Layout\-Drawing}!Layout Handling@{Layout Handling}}
+\subsubsection[{Toggle\-Layout\-Drawing}]{\setlength{\rightskip}{0pt plus 5cm}{\bf D\-E\-C\-L\-D\-I\-R} void Toggle\-Layout\-Drawing (
+\begin{DoxyParamCaption}
+\item[{bool}]{a\-\_\-b\-Toggle}
+\end{DoxyParamCaption}
+)}}\label{group___layouts_ga3dfaacedaa3d3a3f11dc642523de12e6}
+
+
+Toggles drawing layouts. 
+
+Toggles whether or not the layout should be drawn.
+
+
+\begin{DoxyParams}{Parameters}
+{\em a\-\_\-b\-Toggle} & True/\-False \\
+\hline
+\end{DoxyParams}

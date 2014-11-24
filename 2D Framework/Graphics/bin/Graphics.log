@@ -1,0 +1,131 @@
+﻿Build started 17/11/2014 10:18:05 AM.
+     1>Project "H:\Engine\Graphics\Graphics.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"../resources/Math Library/include" /I./inc /ZI /nologo /W4 /WX- /Od /Oy- /D _WINDLL /D GLEW_MX /D _WINDLL /D _MBCS /D _DLL_BUILD_ /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"./bin/" /Fd"./bin/vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\resources\TinyXML\tinyxml2.cpp src\Actor.cpp src\ActorLimb.cpp src\ActorManager.cpp src\AIBehaviours.cpp src\Collision.cpp src\common.cpp src\ErrorHandling.cpp src\Font.cpp src\FontManager.cpp src\Framework.cpp src\Map.cpp src\MapManager.cpp src\Memory.cpp src\Scripts.cpp src\Shapes.cpp src\Sound.cpp src\Startup.cpp src\UIElements.cpp src\UILayouts.cpp src\Window.cpp
+         Window.cpp
+         UILayouts.cpp
+         UIElements.cpp
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xrefwrap(431): error C2064: term does not evaluate to a function taking 0 arguments
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\functional(239) : see reference to function template instantiation '_Ret std::_Callable_obj<_Ty>::_ApplyX<_Rx>(void)' being compiled
+                 with
+                 [
+                     _Ret=void,
+                     _Ty=int,
+                     _Rx=void
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\functional(239) : see reference to function template instantiation '_Ret std::_Callable_obj<_Ty>::_ApplyX<_Rx>(void)' being compiled
+                 with
+                 [
+                     _Ret=void,
+                     _Ty=int,
+                     _Rx=void
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\functional(239) : while compiling class template member function 'void std::_Func_impl<_Callable,_Alloc,_Rx>::_Do_call(void)'
+                 with
+                 [
+                     _Callable=_MyWrapper,
+                     _Alloc=std::allocator<std::_Func_class<void>>,
+                     _Rx=void
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\functional(514) : see reference to class template instantiation 'std::_Func_impl<_Callable,_Alloc,_Rx>' being compiled
+                 with
+                 [
+                     _Callable=_MyWrapper,
+                     _Alloc=std::allocator<std::_Func_class<void>>,
+                     _Rx=void
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\functional(514) : see reference to function template instantiation 'void std::_Func_class<_Ret>::_Do_alloc<_Myimpl,_Ty,_Alloc>(_Fty &&,_Alloc)' being compiled
+                 with
+                 [
+                     _Ret=void,
+                     _Ty=int,
+                     _Alloc=std::allocator<std::_Func_class<void>>,
+                     _Fty=int
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\functional(514) : see reference to function template instantiation 'void std::_Func_class<_Ret>::_Do_alloc<_Myimpl,_Ty,_Alloc>(_Fty &&,_Alloc)' being compiled
+                 with
+                 [
+                     _Ret=void,
+                     _Ty=int,
+                     _Alloc=std::allocator<std::_Func_class<void>>,
+                     _Fty=int
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\functional(514) : see reference to function template instantiation 'void std::_Func_class<_Ret>::_Reset_alloc<_Ty,std::allocator<std::_Func_class<_Ret>>>(_Fty &&,_Alloc)' being compiled
+                 with
+                 [
+                     _Ret=void,
+                     _Ty=int,
+                     _Fty=int,
+                     _Alloc=std::allocator<std::_Func_class<void>>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\functional(514) : see reference to function template instantiation 'void std::_Func_class<_Ret>::_Reset_alloc<_Ty,std::allocator<std::_Func_class<_Ret>>>(_Fty &&,_Alloc)' being compiled
+                 with
+                 [
+                     _Ret=void,
+                     _Ty=int,
+                     _Fty=int,
+                     _Alloc=std::allocator<std::_Func_class<void>>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\functional(692) : see reference to function template instantiation 'void std::_Func_class<_Ret>::_Reset<_Ty>(_Fty &&)' being compiled
+                 with
+                 [
+                     _Ret=void,
+                     _Ty=int,
+                     _Fty=int
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\functional(692) : see reference to function template instantiation 'void std::_Func_class<_Ret>::_Reset<_Ty>(_Fty &&)' being compiled
+                 with
+                 [
+                     _Ret=void,
+                     _Ty=int,
+                     _Fty=int
+                 ]
+                 h:\engine\graphics\src\uielements.cpp(30) : see reference to function template instantiation 'std::function<_Fty> &std::function<_Fty>::operator =<int>(_Fx &&)' being compiled
+                 with
+                 [
+                     _Fty=void (void),
+                     _Fx=int
+                 ]
+                 h:\engine\graphics\src\uielements.cpp(30) : see reference to function template instantiation 'std::function<_Fty> &std::function<_Fty>::operator =<int>(_Fx &&)' being compiled
+                 with
+                 [
+                     _Fty=void (void),
+                     _Fx=int
+                 ]
+         Startup.cpp
+         Sound.cpp
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\algorithm(1066): warning C4996: 'std::_Transform1': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\algorithm(1047) : see declaration of 'std::_Transform1'
+                 h:\engine\graphics\src\sound.cpp(163) : see reference to function template instantiation '_OutIt std::transform<float*,float*,UpdateBGMSpectrum::<lambda_7361ce5f24c4efbf83ef166019d1eaee>>(_InIt,_InIt,_OutIt,_Fn1)' being compiled
+                 with
+                 [
+                     _OutIt=float *,
+                     _InIt=float *,
+                     _Fn1=UpdateBGMSpectrum::<lambda_7361ce5f24c4efbf83ef166019d1eaee>
+                 ]
+         Shapes.cpp
+         Scripts.cpp
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\math.h(162): warning C4211: nonstandard extension used : redefined extern to static
+         Memory.cpp
+         MapManager.cpp
+         Map.cpp
+         Framework.cpp
+         FontManager.cpp
+         Font.cpp
+         ErrorHandling.cpp
+         common.cpp
+         Collision.cpp
+     1>h:\engine\graphics\src\collision.cpp(74): warning C4189: 'intersection' : local variable is initialized but not referenced
+         AIBehaviours.cpp
+         ActorManager.cpp
+     1>h:\engine\graphics\src\actormanager.cpp(103): warning C4018: '<' : signed/unsigned mismatch
+         ActorLimb.cpp
+         Actor.cpp
+     1>h:\engine\graphics\src\actor.cpp(46): warning C4101: 'ccImageFile' : unreferenced local variable
+     1>h:\engine\graphics\src\actor.cpp(132): warning C4100: 'uiVBO' : unreferenced formal parameter
+         Generating Code...
+     1>Done Building Project "H:\Engine\Graphics\Graphics.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:01:31.89

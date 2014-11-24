@@ -1,0 +1,25 @@
+C:\Users\nicholas.smith\Perforce\nicholas.smith_AIE-Purple-04_6548\assessments\nicholas.smith\Assesment 5 - Scripting\Engine\ActorEditor\bin\Debug\ActorEditor.exe
+C:\Users\nicholas.smith\Perforce\nicholas.smith_AIE-Purple-04_6548\assessments\nicholas.smith\Assesment 5 - Scripting\Engine\ActorEditor\bin\Debug\ActorEditor.pdb
+C:\Users\nicholas.smith\Perforce\nicholas.smith_AIE-Purple-04_6548\assessments\nicholas.smith\Assesment 5 - Scripting\Engine\ActorEditor\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\nicholas.smith\Perforce\nicholas.smith_AIE-Purple-04_6548\assessments\nicholas.smith\Assesment 5 - Scripting\Engine\ActorEditor\obj\x86\Debug\MainWindow.baml
+C:\Users\nicholas.smith\Perforce\nicholas.smith_AIE-Purple-04_6548\assessments\nicholas.smith\Assesment 5 - Scripting\Engine\ActorEditor\obj\x86\Debug\MainWindow.g.cs
+C:\Users\nicholas.smith\Perforce\nicholas.smith_AIE-Purple-04_6548\assessments\nicholas.smith\Assesment 5 - Scripting\Engine\ActorEditor\obj\x86\Debug\App.g.cs
+C:\Users\nicholas.smith\Perforce\nicholas.smith_AIE-Purple-04_6548\assessments\nicholas.smith\Assesment 5 - Scripting\Engine\ActorEditor\obj\x86\Debug\ActorEditor_MarkupCompile.cache
+C:\Users\nicholas.smith\Perforce\nicholas.smith_AIE-Purple-04_6548\assessments\nicholas.smith\Assesment 5 - Scripting\Engine\ActorEditor\obj\x86\Debug\ActorEditor.g.resources
+C:\Users\nicholas.smith\Perforce\nicholas.smith_AIE-Purple-04_6548\assessments\nicholas.smith\Assesment 5 - Scripting\Engine\ActorEditor\obj\x86\Debug\ActorEditor.Properties.Resources.resources
+C:\Users\nicholas.smith\Perforce\nicholas.smith_AIE-Purple-04_6548\assessments\nicholas.smith\Assesment 5 - Scripting\Engine\ActorEditor\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\nicholas.smith\Perforce\nicholas.smith_AIE-Purple-04_6548\assessments\nicholas.smith\Assesment 5 - Scripting\Engine\ActorEditor\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\nicholas.smith\Perforce\nicholas.smith_AIE-Purple-04_6548\assessments\nicholas.smith\Assesment 5 - Scripting\Engine\ActorEditor\obj\x86\Debug\ActorEditor.exe
+C:\Users\nicholas.smith\Perforce\nicholas.smith_AIE-Purple-04_6548\assessments\nicholas.smith\Assesment 5 - Scripting\Engine\ActorEditor\obj\x86\Debug\ActorEditor.pdb
+H:\Engine\ActorEditor\bin\Debug\ActorEditor.exe
+H:\Engine\ActorEditor\bin\Debug\ActorEditor.pdb
+H:\Engine\ActorEditor\obj\x86\Debug\ActorEditor.csprojResolveAssemblyReference.cache
+H:\Engine\ActorEditor\obj\x86\Debug\MainWindow.baml
+H:\Engine\ActorEditor\obj\x86\Debug\MainWindow.g.cs
+H:\Engine\ActorEditor\obj\x86\Debug\App.g.cs
+H:\Engine\ActorEditor\obj\x86\Debug\ActorEditor_MarkupCompile.cache
+H:\Engine\ActorEditor\obj\x86\Debug\ActorEditor.g.resources
+H:\Engine\ActorEditor\obj\x86\Debug\ActorEditor.Properties.Resources.resources
+H:\Engine\ActorEditor\obj\x86\Debug\ActorEditor.csproj.GenerateResource.Cache
+H:\Engine\ActorEditor\obj\x86\Debug\ActorEditor.exe
+H:\Engine\ActorEditor\obj\x86\Debug\ActorEditor.pdb

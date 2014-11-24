@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<map>
+	<info id="1" title="Map" width="500" height="500" BGMFile="sound.wav" BGImage="images/mapobjects/Game BG1.png" />
+	<layers count ="3">
+		<layer id="ground">
+			<objects count="10">
+				<!-- <object id="1" x="10" y="10" z="0" attribute="0" /> -->
+				<object id="1" x="10" y="50" z="0" attribute="0" />
+				<object id="1" x="10" y="150" z="0" attribute="0" />
+				<object id="1" x="10" y="350" z="0" attribute="0" />
+				<object id="1" x="75" y="275" z="0" attribute="0" />
+				<object id="1" x="150" y="420" z="0" attribute="0" />
+				<object id="1" x="150" y="200" z="0" attribute="0" />
+				<object id="1" x="250" y="300" z="0" attribute="0" />
+				<object id="1" x="250" y="80" z="0" attribute="0" />
+				<object id="1" x="300" y="175" z="0" attribute="0" />
+				<object id="1" x="300" y="175" z="0" attribute="0" />
+			</objects>
+		</layer>
+		<layer id="fringe">
+			<objects count="0"><!-- 
+				<object id="1" x="10" y="10" z="0" attribute="0" /> -->
+			</objects>
+		</layer>
+		<layer id="fringe2">
+			<objects count="0">
+				<!-- <object id="1" x="10" y="10" z="0" attribute="0" /> -->
+			</objects>
+		</layer>
+	</layers>
+</map>

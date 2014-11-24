@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<mapobjects>
+	<objects count="1">
+		<!-- <object id="1" name="blah" imageFile="images/mapobjects/tree.png" width="32" height="32" /> -->
+		<object id="1" name="blah" imageFile="images/mapobjects/platform.png" width="123" height="15" />
+	</objects>
+</mapobjects>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<layout>
+	<info x="0" y="0" w="0" h="0" BGFile="images/UI/black.png" />
+	<elements>
+		<buttons count="0">
+			<!-- <button id="1" X="5" Y="5" W="60" H="20" buttonUp="images/UI/blah.png" buttonDown="images/UI/blahMeter.png" /> --></buttons>
+		<labels count="0">
+			<!-- <label id="2" X="80" Y="100" labelText="" R="0" G="0" B="0" A="1" /> -->
+		</labels>
+		<meters count="0">
+			<!-- <meter id="4" X="10" Y="150" W="80" H="20" xPad="5" yPad="5" BGImage="images/UI/blah.png" meterImage="images/UI/blahMeter.png" /> -->
+		</meters>
+	</elements>
+</layout>

@@ -1,0 +1,309 @@
+\hypertarget{group___setup}{\section{Framework Setup}
+\label{group___setup}\index{Framework Setup@{Framework Setup}}
+}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_framework_8h_a6b6635274dbcf57e29a0140cd8cf0305}{D\-E\-C\-L\-D\-I\-R} void \hyperlink{group___setup_gabbec082e10c34db627e36cc013145edf}{Start\-Framework} (int a\-\_\-i\-Screen\-Height, int a\-\_\-i\-Screen\-Width)
+\begin{DoxyCompactList}\small\item\em Initialises the engine framework. \end{DoxyCompactList}\item 
+\hyperlink{_framework_8h_a6b6635274dbcf57e29a0140cd8cf0305}{D\-E\-C\-L\-D\-I\-R} int \hyperlink{group___setup_ga56342962a8d02fd6385140819bb0e82f}{New\-Window} (int a\-\_\-i\-Screen\-Height, int a\-\_\-i\-Screen\-Width, int a\-\_\-i\-Screen\-X, int a\-\_\-i\-Screen\-Y, int a\-\_\-i\-Window\-I\-D)
+\begin{DoxyCompactList}\small\item\em Creates a new window. \end{DoxyCompactList}\item 
+\hyperlink{_framework_8h_a6b6635274dbcf57e29a0140cd8cf0305}{D\-E\-C\-L\-D\-I\-R} int \hyperlink{group___setup_ga3eb385f36a4ae1aa2557b8abfb94597e}{New\-Window} (float $\ast$a\-\_\-f\-Size, float $\ast$a\-\_\-f\-Pos, int a\-\_\-i\-Window\-I\-D)
+\begin{DoxyCompactList}\small\item\em Creates a new window. \end{DoxyCompactList}\item 
+\hyperlink{_framework_8h_a6b6635274dbcf57e29a0140cd8cf0305}{D\-E\-C\-L\-D\-I\-R} void \hyperlink{group___setup_gae8b13dc3b384b857ebb5b677ae643c5f}{Set\-Active\-Window} (int a\-\_\-i\-Window\-I\-D)
+\begin{DoxyCompactList}\small\item\em Sets the focus to a window. \end{DoxyCompactList}\item 
+\hyperlink{_framework_8h_a6b6635274dbcf57e29a0140cd8cf0305}{D\-E\-C\-L\-D\-I\-R} void \hyperlink{group___setup_ga309430fcc990496bc84b4e9ec75eeb55}{Destroy\-Window} (int a\-\_\-i\-Window\-I\-D)
+\begin{DoxyCompactList}\small\item\em Destroys a window. \end{DoxyCompactList}\item 
+\hyperlink{_framework_8h_a6b6635274dbcf57e29a0140cd8cf0305}{D\-E\-C\-L\-D\-I\-R} void \hyperlink{group___setup_ga8bf6fe263680fd8292d7758981076e48}{Refresh\-Screen} (int a\-\_\-i\-Window\-I\-D, float a\-\_\-f\-R, float a\-\_\-f\-G, float a\-\_\-f\-B, float a\-\_\-f\-A)
+\begin{DoxyCompactList}\small\item\em Clears the screen. \end{DoxyCompactList}\item 
+\hyperlink{_framework_8h_a6b6635274dbcf57e29a0140cd8cf0305}{D\-E\-C\-L\-D\-I\-R} void \hyperlink{group___setup_ga82e55d86fbd6f317ddcb065799a98f61}{Set\-Window\-Title} (int a\-\_\-i\-Window\-I\-D, const char $\ast$a\-\_\-cc\-Title)
+\begin{DoxyCompactList}\small\item\em Sets the specified windows title. \end{DoxyCompactList}\item 
+\hyperlink{_framework_8h_a6b6635274dbcf57e29a0140cd8cf0305}{D\-E\-C\-L\-D\-I\-R} void \hyperlink{group___setup_ga4b2b3d434a39aa83598aded391cdc343}{Set\-Window\-Shape} (int a\-\_\-i\-Window\-I\-D, int a\-\_\-i\-Window\-Shape)
+\begin{DoxyCompactList}\small\item\em Sets the specified windows display region. \end{DoxyCompactList}\item 
+\hyperlink{_framework_8h_a6b6635274dbcf57e29a0140cd8cf0305}{D\-E\-C\-L\-D\-I\-R} void \hyperlink{group___setup_ga2f6390e3241e50a56098ad329965a4c8}{Set\-Window\-Position} (int a\-\_\-i\-Window\-I\-D, float $\ast$a\-\_\-f\-Pos)
+\begin{DoxyCompactList}\small\item\em Sets windows position. \end{DoxyCompactList}\item 
+\hyperlink{_framework_8h_a6b6635274dbcf57e29a0140cd8cf0305}{D\-E\-C\-L\-D\-I\-R} void \hyperlink{group___setup_gae686dbef0d2b56b2eab53f0061720e94}{Set\-Window\-Alpha} (int a\-\_\-i\-Window\-I\-D, float a\-\_\-f\-Opacity)
+\begin{DoxyCompactList}\small\item\em Sets windows opacity. \end{DoxyCompactList}\item 
+\hyperlink{_framework_8h_a6b6635274dbcf57e29a0140cd8cf0305}{D\-E\-C\-L\-D\-I\-R} double \hyperlink{group___setup_gae5a17273e6ecd9fcebbf8ae75bd52640}{Get\-Delta\-Time} ()
+\begin{DoxyCompactList}\small\item\em Gets the time since the last frame update. \end{DoxyCompactList}\item 
+\hyperlink{_framework_8h_a6b6635274dbcf57e29a0140cd8cf0305}{D\-E\-C\-L\-D\-I\-R} float \hyperlink{group___setup_ga2920fd80d89c3b815a6db557669bc0f6}{Get\-F\-P\-S} ()
+\begin{DoxyCompactList}\small\item\em Gets the current F\-P\-S. \end{DoxyCompactList}\item 
+\hyperlink{_framework_8h_a6b6635274dbcf57e29a0140cd8cf0305}{D\-E\-C\-L\-D\-I\-R} bool \hyperlink{group___setup_gaa6205a4df2c541ca6f061cf3c444298f}{Framework\-Update} ()
+\begin{DoxyCompactList}\small\item\em Updates the framework. \end{DoxyCompactList}\item 
+\hyperlink{_framework_8h_a6b6635274dbcf57e29a0140cd8cf0305}{D\-E\-C\-L\-D\-I\-R} void \hyperlink{group___setup_ga9a83fbdc01858319309fd7f54850b659}{Framework\-Close} ()
+\begin{DoxyCompactList}\small\item\em Shuts down the framework. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Framework setup and handling 
+
+\subsection{Function Documentation}
+\hypertarget{group___setup_ga309430fcc990496bc84b4e9ec75eeb55}{\index{Framework Setup@{Framework Setup}!Destroy\-Window@{Destroy\-Window}}
+\index{Destroy\-Window@{Destroy\-Window}!Framework Setup@{Framework Setup}}
+\subsubsection[{Destroy\-Window}]{\setlength{\rightskip}{0pt plus 5cm}{\bf D\-E\-C\-L\-D\-I\-R} void Destroy\-Window (
+\begin{DoxyParamCaption}
+\item[{int}]{a\-\_\-i\-Window\-I\-D}
+\end{DoxyParamCaption}
+)}}\label{group___setup_ga309430fcc990496bc84b4e9ec75eeb55}
+
+
+Destroys a window. 
+
+Closes the specified window and deletes all associated handles
+
+
+\begin{DoxyParams}{Parameters}
+{\em a\-\_\-i\-Window\-I\-D} & I\-D number for the window to be deleted \\
+\hline
+\end{DoxyParams}
+\hypertarget{group___setup_ga9a83fbdc01858319309fd7f54850b659}{\index{Framework Setup@{Framework Setup}!Framework\-Close@{Framework\-Close}}
+\index{Framework\-Close@{Framework\-Close}!Framework Setup@{Framework Setup}}
+\subsubsection[{Framework\-Close}]{\setlength{\rightskip}{0pt plus 5cm}{\bf D\-E\-C\-L\-D\-I\-R} void Framework\-Close (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{group___setup_ga9a83fbdc01858319309fd7f54850b659}
+
+
+Shuts down the framework. 
+
+Ends the framework and deletes any handles associated with it \hypertarget{group___setup_gaa6205a4df2c541ca6f061cf3c444298f}{\index{Framework Setup@{Framework Setup}!Framework\-Update@{Framework\-Update}}
+\index{Framework\-Update@{Framework\-Update}!Framework Setup@{Framework Setup}}
+\subsubsection[{Framework\-Update}]{\setlength{\rightskip}{0pt plus 5cm}{\bf D\-E\-C\-L\-D\-I\-R} bool Framework\-Update (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{group___setup_gaa6205a4df2c541ca6f061cf3c444298f}
+
+
+Updates the framework. 
+
+Called once every frame, this updates the entire scene and draws everything again \hypertarget{group___setup_gae5a17273e6ecd9fcebbf8ae75bd52640}{\index{Framework Setup@{Framework Setup}!Get\-Delta\-Time@{Get\-Delta\-Time}}
+\index{Get\-Delta\-Time@{Get\-Delta\-Time}!Framework Setup@{Framework Setup}}
+\subsubsection[{Get\-Delta\-Time}]{\setlength{\rightskip}{0pt plus 5cm}{\bf D\-E\-C\-L\-D\-I\-R} double Get\-Delta\-Time (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{group___setup_gae5a17273e6ecd9fcebbf8ae75bd52640}
+
+
+Gets the time since the last frame update. 
+
+Returns the time since the last frame update \hypertarget{group___setup_ga2920fd80d89c3b815a6db557669bc0f6}{\index{Framework Setup@{Framework Setup}!Get\-F\-P\-S@{Get\-F\-P\-S}}
+\index{Get\-F\-P\-S@{Get\-F\-P\-S}!Framework Setup@{Framework Setup}}
+\subsubsection[{Get\-F\-P\-S}]{\setlength{\rightskip}{0pt plus 5cm}{\bf D\-E\-C\-L\-D\-I\-R} float Get\-F\-P\-S (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{group___setup_ga2920fd80d89c3b815a6db557669bc0f6}
+
+
+Gets the current F\-P\-S. 
+
+Returns the current frames rendered every second \hypertarget{group___setup_ga56342962a8d02fd6385140819bb0e82f}{\index{Framework Setup@{Framework Setup}!New\-Window@{New\-Window}}
+\index{New\-Window@{New\-Window}!Framework Setup@{Framework Setup}}
+\subsubsection[{New\-Window}]{\setlength{\rightskip}{0pt plus 5cm}{\bf D\-E\-C\-L\-D\-I\-R} int New\-Window (
+\begin{DoxyParamCaption}
+\item[{int}]{a\-\_\-i\-Screen\-Height, }
+\item[{int}]{a\-\_\-i\-Screen\-Width, }
+\item[{int}]{a\-\_\-i\-Screen\-X, }
+\item[{int}]{a\-\_\-i\-Screen\-Y, }
+\item[{int}]{a\-\_\-i\-Window\-I\-D}
+\end{DoxyParamCaption}
+)}}\label{group___setup_ga56342962a8d02fd6385140819bb0e82f}
+
+
+Creates a new window. 
+
+Creates a new window
+
+
+\begin{DoxyParams}{Parameters}
+{\em a\-\_\-i\-Screen\-Height} & Height of the window \\
+\hline
+{\em a\-\_\-i\-Screen\-Width} & Width of the window \\
+\hline
+{\em a\-\_\-i\-Screen\-X} & Starting X position of the window \\
+\hline
+{\em a\-\_\-i\-Screen\-Y} & Starting Y position of the window \\
+\hline
+{\em a\-\_\-i\-Window\-I\-D} & I\-D number for the window \\
+\hline
+\end{DoxyParams}
+\hypertarget{group___setup_ga3eb385f36a4ae1aa2557b8abfb94597e}{\index{Framework Setup@{Framework Setup}!New\-Window@{New\-Window}}
+\index{New\-Window@{New\-Window}!Framework Setup@{Framework Setup}}
+\subsubsection[{New\-Window}]{\setlength{\rightskip}{0pt plus 5cm}{\bf D\-E\-C\-L\-D\-I\-R} int New\-Window (
+\begin{DoxyParamCaption}
+\item[{float $\ast$}]{a\-\_\-f\-Size, }
+\item[{float $\ast$}]{a\-\_\-f\-Pos, }
+\item[{int}]{a\-\_\-i\-Window\-I\-D}
+\end{DoxyParamCaption}
+)}}\label{group___setup_ga3eb385f36a4ae1aa2557b8abfb94597e}
+
+
+Creates a new window. 
+
+Creates a new window
+
+
+\begin{DoxyParams}{Parameters}
+{\em a\-\_\-f\-Size} & Float array for the window size \\
+\hline
+{\em a\-\_\-f\-Pos} & Float array the the window start position \\
+\hline
+{\em a\-\_\-i\-Window\-I\-D} & I\-D number for the window \\
+\hline
+\end{DoxyParams}
+\hypertarget{group___setup_ga8bf6fe263680fd8292d7758981076e48}{\index{Framework Setup@{Framework Setup}!Refresh\-Screen@{Refresh\-Screen}}
+\index{Refresh\-Screen@{Refresh\-Screen}!Framework Setup@{Framework Setup}}
+\subsubsection[{Refresh\-Screen}]{\setlength{\rightskip}{0pt plus 5cm}{\bf D\-E\-C\-L\-D\-I\-R} void Refresh\-Screen (
+\begin{DoxyParamCaption}
+\item[{int}]{a\-\_\-i\-Window\-I\-D, }
+\item[{float}]{a\-\_\-f\-R, }
+\item[{float}]{a\-\_\-f\-G, }
+\item[{float}]{a\-\_\-f\-B, }
+\item[{float}]{a\-\_\-f\-A}
+\end{DoxyParamCaption}
+)}}\label{group___setup_ga8bf6fe263680fd8292d7758981076e48}
+
+
+Clears the screen. 
+
+Clears the current buffer and sets the default colour
+
+
+\begin{DoxyParams}{Parameters}
+{\em a\-\_\-i\-Window\-I\-D} & I\-D number for the window \\
+\hline
+{\em a\-\_\-f\-R} & Red colour value \\
+\hline
+{\em a\-\_\-f\-G} & Green colour value \\
+\hline
+{\em a\-\_\-f\-B} & Blue colour value \\
+\hline
+{\em a\-\_\-f\-A} & Alpha value \\
+\hline
+\end{DoxyParams}
+\hypertarget{group___setup_gae8b13dc3b384b857ebb5b677ae643c5f}{\index{Framework Setup@{Framework Setup}!Set\-Active\-Window@{Set\-Active\-Window}}
+\index{Set\-Active\-Window@{Set\-Active\-Window}!Framework Setup@{Framework Setup}}
+\subsubsection[{Set\-Active\-Window}]{\setlength{\rightskip}{0pt plus 5cm}{\bf D\-E\-C\-L\-D\-I\-R} void Set\-Active\-Window (
+\begin{DoxyParamCaption}
+\item[{int}]{a\-\_\-i\-Window\-I\-D}
+\end{DoxyParamCaption}
+)}}\label{group___setup_gae8b13dc3b384b857ebb5b677ae643c5f}
+
+
+Sets the focus to a window. 
+
+Sets the specified window as the focused one so it can be drawn to and accessed
+
+
+\begin{DoxyParams}{Parameters}
+{\em a\-\_\-i\-Window\-I\-D} & I\-D number for the window to be focused \\
+\hline
+\end{DoxyParams}
+\hypertarget{group___setup_gae686dbef0d2b56b2eab53f0061720e94}{\index{Framework Setup@{Framework Setup}!Set\-Window\-Alpha@{Set\-Window\-Alpha}}
+\index{Set\-Window\-Alpha@{Set\-Window\-Alpha}!Framework Setup@{Framework Setup}}
+\subsubsection[{Set\-Window\-Alpha}]{\setlength{\rightskip}{0pt plus 5cm}{\bf D\-E\-C\-L\-D\-I\-R} void Set\-Window\-Alpha (
+\begin{DoxyParamCaption}
+\item[{int}]{a\-\_\-i\-Window\-I\-D, }
+\item[{float}]{a\-\_\-f\-Opacity}
+\end{DoxyParamCaption}
+)}}\label{group___setup_gae686dbef0d2b56b2eab53f0061720e94}
+
+
+Sets windows opacity. 
+
+Sets the opacity for the selected window and all of its components
+
+
+\begin{DoxyParams}{Parameters}
+{\em a\-\_\-i\-Window\-I\-D} & I\-D number for the window to be deleted \\
+\hline
+{\em a\-\_\-f\-Opacity} & Value between 0-\/255 for the opacity \\
+\hline
+\end{DoxyParams}
+\hypertarget{group___setup_ga2f6390e3241e50a56098ad329965a4c8}{\index{Framework Setup@{Framework Setup}!Set\-Window\-Position@{Set\-Window\-Position}}
+\index{Set\-Window\-Position@{Set\-Window\-Position}!Framework Setup@{Framework Setup}}
+\subsubsection[{Set\-Window\-Position}]{\setlength{\rightskip}{0pt plus 5cm}{\bf D\-E\-C\-L\-D\-I\-R} void Set\-Window\-Position (
+\begin{DoxyParamCaption}
+\item[{int}]{a\-\_\-i\-Window\-I\-D, }
+\item[{float $\ast$}]{a\-\_\-f\-Pos}
+\end{DoxyParamCaption}
+)}}\label{group___setup_ga2f6390e3241e50a56098ad329965a4c8}
+
+
+Sets windows position. 
+
+Sets specified windows origin point
+
+
+\begin{DoxyParams}{Parameters}
+{\em a\-\_\-i\-Window\-I\-D} & I\-D number for the window to be deleted \\
+\hline
+{\em a\-\_\-f\-Pos} & Float array of the position for the window \\
+\hline
+\end{DoxyParams}
+\hypertarget{group___setup_ga4b2b3d434a39aa83598aded391cdc343}{\index{Framework Setup@{Framework Setup}!Set\-Window\-Shape@{Set\-Window\-Shape}}
+\index{Set\-Window\-Shape@{Set\-Window\-Shape}!Framework Setup@{Framework Setup}}
+\subsubsection[{Set\-Window\-Shape}]{\setlength{\rightskip}{0pt plus 5cm}{\bf D\-E\-C\-L\-D\-I\-R} void Set\-Window\-Shape (
+\begin{DoxyParamCaption}
+\item[{int}]{a\-\_\-i\-Window\-I\-D, }
+\item[{int}]{a\-\_\-i\-Window\-Shape}
+\end{DoxyParamCaption}
+)}}\label{group___setup_ga4b2b3d434a39aa83598aded391cdc343}
+
+
+Sets the specified windows display region. 
+
+Sets the specified region to no resize mode and changes the physical shape of the displayed window
+
+
+\begin{DoxyParams}{Parameters}
+{\em a\-\_\-i\-Window\-I\-D} & I\-D number for the window to be deleted \\
+\hline
+{\em a\-\_\-i\-Window\-Shape} & Number specifying the shape to be selected \\
+\hline
+\end{DoxyParams}
+\hypertarget{group___setup_ga82e55d86fbd6f317ddcb065799a98f61}{\index{Framework Setup@{Framework Setup}!Set\-Window\-Title@{Set\-Window\-Title}}
+\index{Set\-Window\-Title@{Set\-Window\-Title}!Framework Setup@{Framework Setup}}
+\subsubsection[{Set\-Window\-Title}]{\setlength{\rightskip}{0pt plus 5cm}{\bf D\-E\-C\-L\-D\-I\-R} void Set\-Window\-Title (
+\begin{DoxyParamCaption}
+\item[{int}]{a\-\_\-i\-Window\-I\-D, }
+\item[{const char $\ast$}]{a\-\_\-cc\-Title}
+\end{DoxyParamCaption}
+)}}\label{group___setup_ga82e55d86fbd6f317ddcb065799a98f61}
+
+
+Sets the specified windows title. 
+
+Sets the title of the specified window
+
+
+\begin{DoxyParams}{Parameters}
+{\em a\-\_\-i\-Window\-I\-D} & I\-D number for the window to be deleted \\
+\hline
+{\em a\-\_\-cc\-Title} & String of characters to set as the window title \\
+\hline
+\end{DoxyParams}
+\hypertarget{group___setup_gabbec082e10c34db627e36cc013145edf}{\index{Framework Setup@{Framework Setup}!Start\-Framework@{Start\-Framework}}
+\index{Start\-Framework@{Start\-Framework}!Framework Setup@{Framework Setup}}
+\subsubsection[{Start\-Framework}]{\setlength{\rightskip}{0pt plus 5cm}{\bf D\-E\-C\-L\-D\-I\-R} void Start\-Framework (
+\begin{DoxyParamCaption}
+\item[{int}]{a\-\_\-i\-Screen\-Height, }
+\item[{int}]{a\-\_\-i\-Screen\-Width}
+\end{DoxyParamCaption}
+)}}\label{group___setup_gabbec082e10c34db627e36cc013145edf}
+
+
+Initialises the engine framework. 
+
+Initialises the framework and opens a starting window of a specified size
+
+
+\begin{DoxyParams}{Parameters}
+{\em a\-\_\-i\-Screen\-Height} & Height of the initial window \\
+\hline
+{\em a\-\_\-i\-Screen\-Width} & Width of the initial window \\
+\hline
+\end{DoxyParams}

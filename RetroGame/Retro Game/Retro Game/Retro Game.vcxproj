@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A2D83B7E-90FB-4FCB-A0AF-32D3BC39E312}</ProjectGuid>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IntDir>obj\</IntDir>
+    <OutDir>bin\</OutDir>
+    <LinkIncremental>true</LinkIncremental>
+    <GenerateManifest>true</GenerateManifest>
+    <EmbedManifest>false</EmbedManifest>
+    <TargetName>$(ProjectName)_d</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IntDir>obj\</IntDir>
+    <OutDir>bin\</OutDir>
+    <LinkIncremental>true</LinkIncremental>
+    <GenerateManifest>true</GenerateManifest>
+    <EmbedManifest>false</EmbedManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>./;./include/;./libs/Maths/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>
+      </PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OutputFile>$(OutDir)$(ProjectName)_d.exe</OutputFile>
+      <ProgramDatabaseFile>$(OutDir)$(ProjectName)_d.pdb</ProgramDatabaseFile>
+      <SubSystem>NotSet</SubSystem>
+      <AdditionalLibraryDirectories>./libs;./libs/Maths/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>AIE_GL_Static_Framework_d.lib;kernel32.lib;MathLibrary_d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Manifest>
+      <OutputManifestFile>$(TargetPath).manifest</OutputManifestFile>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>./;./include/;./libs/Maths/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <WarningLevel>Level3</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <OutputFile>$(OutDir)$(ProjectName).exe</OutputFile>
+      <ProgramDatabaseFile>$(OutDir)$(ProjectName).pdb</ProgramDatabaseFile>
+      <SubSystem>NotSet</SubSystem>
+      <AdditionalLibraryDirectories>./libs;./libs/Maths/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>AIE_GL_Static_Framework.lib;kernel32.lib;MathLibrary.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <LinkTimeCodeGeneration>
+      </LinkTimeCodeGeneration>
+    </Link>
+    <Manifest>
+      <OutputManifestFile>$(TargetPath).manifest</OutputManifestFile>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ReadMe.txt" />
+    <None Include="resources\fonts\arial.fnt" />
+    <None Include="resources\shaders\StaticFW_Pixel.glsl" />
+    <None Include="resources\shaders\StaticFW_Vertex.glsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\BomberJet.cpp" />
+    <ClCompile Include="source\Bullet.cpp" />
+    <ClCompile Include="source\Collision.cpp" />
+    <ClCompile Include="source\CreditsState.cpp" />
+    <ClCompile Include="source\Enemy.cpp" />
+    <ClCompile Include="source\EnemyManager.cpp" />
+    <ClCompile Include="source\FIghterJet.cpp" />
+    <ClCompile Include="source\GameEnd.cpp" />
+    <ClCompile Include="source\GameOverState.cpp" />
+    <ClCompile Include="source\GameState.cpp" />
+    <ClCompile Include="source\HighScoresState.cpp" />
+    <ClCompile Include="source\InputHandler.cpp" />
+    <ClCompile Include="source\Level.cpp" />
+    <ClCompile Include="source\main.cpp" />
+    <ClCompile Include="source\MainMenu.cpp" />
+    <ClCompile Include="source\Player.cpp" />
+    <ClCompile Include="source\SplashScreen.cpp" />
+    <ClCompile Include="source\Entity.cpp" />
+    <ClCompile Include="source\Sprites.cpp" />
+    <ClCompile Include="source\State.cpp" />
+    <ClCompile Include="source\StateManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\AIE.h" />
+    <ClInclude Include="include\BomberJet.h" />
+    <ClInclude Include="include\Bullet.h" />
+    <ClInclude Include="include\Collision.h" />
+    <ClInclude Include="include\CreditsState.h" />
+    <ClInclude Include="include\Enemy.h" />
+    <ClInclude Include="include\EnemyManager.h" />
+    <ClInclude Include="include\Enums.h" />
+    <ClInclude Include="include\FighterJet.h" />
+    <ClInclude Include="include\GameEnd.h" />
+    <ClInclude Include="include\GameOverState.h" />
+    <ClInclude Include="include\GameState.h" />
+    <ClInclude Include="include\HighScoresState.h" />
+    <ClInclude Include="include\InputHandler.h" />
+    <ClInclude Include="include\Keys.h" />
+    <ClInclude Include="include\Level.h" />
+    <ClInclude Include="include\MainMenu.h" />
+    <ClInclude Include="include\Player.h" />
+    <ClInclude Include="include\SplashScreen.h" />
+    <ClInclude Include="include\Entity.h" />
+    <ClInclude Include="include\Sprites.h" />
+    <ClInclude Include="include\State.h" />
+    <ClInclude Include="include\StateManager.h" />
+    <ClInclude Include="include\Tile.h" />
+    <ClInclude Include="include\Timer.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

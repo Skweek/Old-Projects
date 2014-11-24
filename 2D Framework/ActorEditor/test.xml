@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<actor>
+  <limbs count="6">
+    <limb id="0" X="0" Y="0" W="32" H="32" imagerow="1" />
+    <limb id="1" X="0" Y="0" W="32" H="32" imagerow="1" />
+    <limb id="2" X="0" Y="0" W="32" H="32" imagerow="1" />
+    <limb id="3" X="0" Y="0" W="32" H="32" imagerow="1" />
+    <limb id="4" X="0" Y="0" W="32" H="32" imagerow="2" />
+    <limb id="5" X="0" Y="0" W="32" H="32" imagerow="1" />
+  </limbs>
+</actor>

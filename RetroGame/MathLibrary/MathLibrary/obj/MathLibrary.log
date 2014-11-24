@@ -1,0 +1,34 @@
+﻿Build started 25/11/2014 9:02:16 AM.
+     1>Project "C:\Users\nicholas.smith\Perforce\nicholas.smith_AIE-GREEN-26_6739\2013_year1\assessments\nicholas.smith\Assesment 3 - Updated RG\MathLibrary\MathLibrary\MathLibrary.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I.\include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _STATIC_BUILD_ /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"./obj\\" /Fd"./obj\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt src\Bitset.cpp src\Conversions.cpp src\Maths.cpp src\Matrix3.cpp src\Matrix4.cpp src\Vec2.cpp src\Vec3.cpp src\Vec4.cpp
+         Bitset.cpp
+         Conversions.cpp
+         Maths.cpp
+         Matrix3.cpp
+         Matrix4.cpp
+         Vec2.cpp
+         Vec3.cpp
+         Vec4.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"./libs\MathLibrary.lib" /NOLOGO /LTCG ./obj\Bitset.obj
+         ./obj\Conversions.obj
+         ./obj\Maths.obj
+         ./obj\Matrix3.obj
+         ./obj\Matrix4.obj
+         ./obj\Vec2.obj
+         ./obj\Vec3.obj
+         ./obj\Vec4.obj
+         MathLibrary.vcxproj -> C:\Users\nicholas.smith\Perforce\nicholas.smith_AIE-GREEN-26_6739\2013_year1\assessments\nicholas.smith\Assesment 3 - Updated RG\MathLibrary\MathLibrary\./libs\MathLibrary.lib
+       PostBuildEvent:
+         copyLibs.bat
+         :VCEnd
+         0 File(s) copied
+         C:\Users\nicholas.smith\Perforce\nicholas.smith_AIE-GREEN-26_6739\2013_year1\assessments\nicholas.smith\Assesment 3 - Updated RG\MathLibrary\MathLibrary\.\libs\MathLibrary.lib
+         1 File(s) copied
+         0 File(s) copied
+     1>Done Building Project "C:\Users\nicholas.smith\Perforce\nicholas.smith_AIE-GREEN-26_6739\2013_year1\assessments\nicholas.smith\Assesment 3 - Updated RG\MathLibrary\MathLibrary\MathLibrary.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.21

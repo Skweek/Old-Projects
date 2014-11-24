@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Collision" Collapsed="true">
+    <Position X="1.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAIAAICAAAFAAAAAAAAAAABAAEAAACACAAAAAAQ=</HashCode>
+      <FileName>inc\Collision.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Font" Collapsed="true">
+    <Position X="1.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAIEgAAAAAAACQQQCEABBABIAACACASk=</HashCode>
+      <FileName>inc\Font.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FontManager" Collapsed="true">
+    <Position X="1.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAQBAACgAAIiAAAkEgEECAQEAgBAAAAA=</HashCode>
+      <FileName>inc\FontManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Map" Collapsed="true">
+    <Position X="1.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wQAAAAAAABIAAgAAAAACwAEQAAAAAAAAAAAIAAAAAEA=</HashCode>
+      <FileName>inc\Map.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MapManager" Collapsed="true">
+    <Position X="1.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IREAAAEIAAABAABAAEAEAAMAEAERAEEAEACCAADAAAQ=</HashCode>
+      <FileName>inc\MapManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shapes" Collapsed="true">
+    <Position X="1.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAEAgKAAAAAAAhAAAAAAAAAAAEAAEAAAFACAAAAAAY=</HashCode>
+      <FileName>inc\Shapes.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sprite" Collapsed="true">
+    <Position X="1.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gIQmAAAAAIAAsgCsBABIAAwAACAAAAAQEQTAgAiBgmo=</HashCode>
+      <FileName>inc\Sprite.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpriteManager" Collapsed="true">
+    <Position X="1.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAABSGJElIEwBACFAAAAAAAAEABkAAMIACABIAAIA=</HashCode>
+      <FileName>inc\SpriteManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Startup" Collapsed="true">
+    <Position X="1.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAQIAAQBQAAABAAAAAAEBAEAAABAAAQAAQAQ=</HashCode>
+      <FileName>inc\Startup.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UIElement" Collapsed="true">
+    <Position X="4.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAgAAAAEBAAAAAAAAAAAAIAgAAAAAA=</HashCode>
+      <FileName>inc\UIElements.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UIButton" Collapsed="true">
+    <Position X="6.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAABBgAAAAgAAAAAAgAAGAACAAAAACAAAAAIAAAA=</HashCode>
+      <FileName>inc\UIElements.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UILabel" Collapsed="true">
+    <Position X="6.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAIAACAAgAACIAEAAAIACAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>inc\UIElements.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UIMeter" Collapsed="true">
+    <Position X="7.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQAAAAAIIAIBkBBAAAACAEAAAICAACQAgAAAAAIAAA=</HashCode>
+      <FileName>inc\UIElements.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UILayouts" Collapsed="true">
+    <Position X="1.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASAACAAACABQABoAAAAAAAIAqGABEAIEhACgAggAAQ=</HashCode>
+      <FileName>inc\UILayouts.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Windows" Collapsed="true">
+    <Position X="1.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAKAABQAAABAABAAACAAgCAAAEogUAAABAAJESAAEU=</HashCode>
+      <FileName>inc\Window.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Layout" Collapsed="true">
+    <Position X="3" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAgAAAAAAAAQAAAAAAAAAAAAAAAABQAAA=</HashCode>
+      <FileName>inc\UILayouts.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Vertex" Collapsed="true">
+    <Position X="3" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>inc\Utilities.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="FontVertex" Collapsed="true">
+    <Position X="3" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>inc\Utilities.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="LineVertex" Collapsed="true">
+    <Position X="4.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>inc\Utilities.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="LineShape" Collapsed="true">
+    <Position X="3" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>inc\Utilities.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Timer" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAACAABAAAAISAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>inc\Utilities.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Character" Collapsed="true">
+    <Position X="4.75" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAQAQAAAAAAAAAAAAAAAAAFwAAAAAgA=</HashCode>
+      <FileName>inc\Utilities.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="MapLayer" Collapsed="true">
+    <Position X="3" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAQAAAAAAgA=</HashCode>
+      <FileName>inc\Utilities.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="MapObject" Collapsed="true">
+    <Position X="4.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>inc\Utilities.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="MapAttribute" Collapsed="true">
+    <Position X="6.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAgA=</HashCode>
+      <FileName>inc\Utilities.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ScreenQuadrant" Collapsed="true">
+    <Position X="3" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAIBEgA=</HashCode>
+      <FileName>inc\Utilities.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

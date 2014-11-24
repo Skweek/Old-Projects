@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<structure desc="normalHuman" directions="4">
+	<left>
+		<limbs count="6">
+			<!-- First body limbs are drawn last, this should be the head and torso. -->
+			<limb id="1" desc="head" X="0" Y="-35" W="17" H="20" originX="0" originY="0" />
+			<limb id="2" desc="body" X="0" Y="0" W="19" H="22" originX="0" originY="0" />
+			<limb id="3" desc="armLeft" X="-15" Y="-8" W="8" H="12" originX="0" originY="0" />
+			<limb id="4" desc="armRight" X="20" Y="-8" W="8" H="12" originX="0" originY="0" />
+			<limb id="5" desc="legLeft" X="-9" Y="20" W="7" H="10" originX="0" originY="0" />
+			<limb id="6" desc="legRight" X="9" Y="20" W="7" H="10" originX="0" originY="0" />
+		</limbs>
+	</left>
+	<right>
+		<limbs count="6">
+			<!-- First body limbs are drawn last, this should be the head and torso. -->
+			<limb id="1" desc="head" X="0" Y="-35" W="17" H="20" originX="0" originY="0" />
+			<limb id="2" desc="body" X="0" Y="0" W="19" H="22" originX="0" originY="0" />
+			<limb id="3" desc="armLeft" X="-15" Y="-8" W="8" H="12" originX="0" originY="0" />
+			<limb id="4" desc="armRight" X="20" Y="-8" W="8" H="12" originX="0" originY="0" />
+			<limb id="5" desc="legLeft" X="-9" Y="20" W="7" H="10" originX="0" originY="0" />
+			<limb id="6" desc="legRight" X="9" Y="20" W="7" H="10" originX="0" originY="0" />
+		</limbs>
+	</right>
+	<up>
+		<limbs count="6">
+			<!-- First body limbs are drawn last, this should be the head and torso. -->
+			<limb id="1" desc="head" X="0" Y="-35" W="17" H="20" originX="0" originY="0" />
+			<limb id="2" desc="body" X="0" Y="0" W="19" H="22" originX="0" originY="0" />
+			<limb id="3" desc="armLeft" X="-15" Y="-8" W="8" H="12" originX="0" originY="0" />
+			<limb id="4" desc="armRight" X="20" Y="-8" W="8" H="12" originX="0" originY="0" />
+			<limb id="5" desc="legLeft" X="-9" Y="20" W="7" H="10" originX="0" originY="0" />
+			<limb id="6" desc="legRight" X="9" Y="20" W="7" H="10" originX="0" originY="0" />
+		</limbs>
+	</up>
+	<down>
+		<limbs count="6">
+			<!-- First body limbs are drawn last, this should be the head and torso. -->
+			<limb id="1" desc="head" X="0" Y="-35" W="17" H="20" originX="0" originY="0" />
+			<limb id="2" desc="body" X="0" Y="0" W="19" H="22" originX="0" originY="0" />
+			<limb id="3" desc="armLeft" X="-15" Y="-8" W="8" H="12" originX="0" originY="0" />
+			<limb id="4" desc="armRight" X="20" Y="-8" W="8" H="12" originX="0" originY="0" />
+			<limb id="5" desc="legLeft" X="-9" Y="20" W="7" H="10" originX="0" originY="0" />
+			<limb id="6" desc="legRight" X="9" Y="20" W="7" H="10" originX="0" originY="0" />
+		</limbs>
+	</down>
+</structure>

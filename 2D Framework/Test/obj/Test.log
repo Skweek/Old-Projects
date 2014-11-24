@@ -1,0 +1,16 @@
+﻿Build started 17/11/2014 10:13:34 AM.
+     1>Project "H:\Engine\Test\Test.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I./inc /I./inc/math /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"obj\\" /Fd"obj\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt src\GameState.cpp src\MainMenu.cpp src\MediaPlayer.cpp src\Player.cpp src\SplashScreen.cpp src\State.cpp src\StateManager.cpp src\main.cpp
+         StateManager.cpp
+         Generating Code...
+         Compiling...
+         main.cpp
+         State.cpp
+         SplashScreen.cpp
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets(347,5): warning MSB4220: Waiting for the currently executing task "CL" to cancel.
+     1>Done Building Project "H:\Engine\Test\Test.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:12.54

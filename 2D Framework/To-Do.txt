@@ -1,0 +1,38 @@
+-	Organise Utilities.h
+	-	Some header files are only used in a couple of files and so they don't need to
+		be included all the time.
+	-	Structs and enums split into their own files to make it look neater and 
+		easier to read
+
+-	Primitive shapes
+	-	Add triangles and porygons
+	-	Maybe add circles. Maybe.
+
+-	General code
+	-	Cut out unnecessary code
+		-	Collision code can be cut down heaps, it has a fair bit of unused code
+		-	Framework header has crap loads of sprite functions, it 
+			only needs a few of them
+	-	Comment everything, pretty much nothing has decent comments
+	-	Some classes don't have constructors and destructors that do anything...
+
+-	Documentation
+	-	Simple start guide on how to use engine
+
+-	Test Project
+	-	Redo map reloading to update collision code as well
+	-	Actually finish test game "Jump 'n' Bump"
+	-	Fix screen boundaries collision
+
+-	Collision
+	-	Fix issue with map objects spanning across multiple quadrants and not 
+		activating collision checks
+
+-	Music
+	-	Multiple files loaded
+	-	More accurate pausing/playing
+	-	Actually do stuff with it
+
+-	Sprites
+	-	Update sprite to inherit from renderable object
+	-	Update animated sprite to inherit from sprite

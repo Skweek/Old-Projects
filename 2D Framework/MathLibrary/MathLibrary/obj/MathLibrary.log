@@ -1,0 +1,42 @@
+﻿Build started 17/11/2014 10:17:48 AM.
+     1>Project "H:\Engine\MathLibrary\MathLibrary\MathLibrary.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I./include /ZI /nologo /W3 /WX- /Od /Oy- /D _DLL_BUILD_ /D _WINDLL /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"./obj\\" /Fd"./obj\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt src\Bitset.cpp src\Conversions.cpp src\Maths.cpp src\Matrix3.cpp src\Matrix4.cpp src\Vec2.cpp src\Vec3.cpp src\Vec4.cpp
+         Vec4.cpp
+         Vec3.cpp
+         Vec2.cpp
+         Matrix4.cpp
+         Matrix3.cpp
+         Maths.cpp
+         Conversions.cpp
+         Bitset.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"./libs\MathLibrary_d.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"./libs\MathLibrary_d.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"./libs\MathLibrary_d.lib" /MACHINE:X86 /DLL ./obj\Bitset.obj
+         ./obj\Conversions.obj
+         ./obj\Maths.obj
+         ./obj\Matrix3.obj
+         ./obj\Matrix4.obj
+         ./obj\Vec2.obj
+         ./obj\Vec3.obj
+         ./obj\Vec4.obj
+            Creating library ./libs\MathLibrary_d.lib and object ./libs\MathLibrary_d.exp
+         MathLibrary.vcxproj -> H:\Engine\MathLibrary\MathLibrary\./libs\MathLibrary_d.dll
+       PostBuildEvent:
+         copyLibs.bat
+         :VCEnd
+         0 File(s) copied
+         H:\Engine\MathLibrary\MathLibrary\.\libs\MathLibrary_d.lib
+         1 File(s) copied
+         H:\Engine\MathLibrary\MathLibrary\.\libs\MathLibrary_d.dll
+         1 File(s) copied
+         0 File(s) copied
+         H:\Engine\MathLibrary\MathLibrary\.\libs\MathLibrary_d.lib
+         1 File(s) copied
+         H:\Engine\MathLibrary\MathLibrary\.\libs\MathLibrary_d.dll
+         1 File(s) copied
+     1>Done Building Project "H:\Engine\MathLibrary\MathLibrary\MathLibrary.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:16.05

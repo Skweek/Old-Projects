@@ -1,0 +1,92 @@
+\hypertarget{group___maps}{\section{Map Handling}
+\label{group___maps}\index{Map Handling@{Map Handling}}
+}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_framework_8h_a6b6635274dbcf57e29a0140cd8cf0305}{D\-E\-C\-L\-D\-I\-R} int \hyperlink{group___maps_ga1cfdc9ea1e95b0965661830bd9a00a3e}{Load\-Map} (const char $\ast$a\-\_\-cc\-Map\-File)
+\begin{DoxyCompactList}\small\item\em Loads a map file. \end{DoxyCompactList}\item 
+\hyperlink{_framework_8h_a6b6635274dbcf57e29a0140cd8cf0305}{D\-E\-C\-L\-D\-I\-R} bool \hyperlink{group___maps_gaf876ac2f9d2e1e0157b75530cc1a9be3}{Load\-Objects} (const char $\ast$a\-\_\-cc\-Objects\-File)
+\begin{DoxyCompactList}\small\item\em Loads an objects file. \end{DoxyCompactList}\item 
+\hyperlink{_framework_8h_a6b6635274dbcf57e29a0140cd8cf0305}{D\-E\-C\-L\-D\-I\-R} void \hyperlink{group___maps_gac5607bacc1c92a6734b25bf0659831a5}{Toggle\-Map\-Drawing} (bool a\-\_\-b\-Toggle)
+\begin{DoxyCompactList}\small\item\em Toggles drawing the map. \end{DoxyCompactList}\item 
+\hyperlink{_framework_8h_a6b6635274dbcf57e29a0140cd8cf0305}{D\-E\-C\-L\-D\-I\-R} void \hyperlink{group___maps_gaf2460c9946c6572200926dda32f96f0f}{Set\-Map} (int a\-\_\-i\-I\-D)
+\begin{DoxyCompactList}\small\item\em Sets the current map. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Handles the loading, updating and drawing of maps 
+
+\subsection{Function Documentation}
+\hypertarget{group___maps_ga1cfdc9ea1e95b0965661830bd9a00a3e}{\index{Map Handling@{Map Handling}!Load\-Map@{Load\-Map}}
+\index{Load\-Map@{Load\-Map}!Map Handling@{Map Handling}}
+\subsubsection[{Load\-Map}]{\setlength{\rightskip}{0pt plus 5cm}{\bf D\-E\-C\-L\-D\-I\-R} int Load\-Map (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{a\-\_\-cc\-Map\-File}
+\end{DoxyParamCaption}
+)}}\label{group___maps_ga1cfdc9ea1e95b0965661830bd9a00a3e}
+
+
+Loads a map file. 
+
+Loads a map file and returns the I\-D as an integer.
+
+
+\begin{DoxyParams}{Parameters}
+{\em a\-\_\-cc\-Map\-File} & Path to the map file \\
+\hline
+\end{DoxyParams}
+\hypertarget{group___maps_gaf876ac2f9d2e1e0157b75530cc1a9be3}{\index{Map Handling@{Map Handling}!Load\-Objects@{Load\-Objects}}
+\index{Load\-Objects@{Load\-Objects}!Map Handling@{Map Handling}}
+\subsubsection[{Load\-Objects}]{\setlength{\rightskip}{0pt plus 5cm}{\bf D\-E\-C\-L\-D\-I\-R} bool Load\-Objects (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{a\-\_\-cc\-Objects\-File}
+\end{DoxyParamCaption}
+)}}\label{group___maps_gaf876ac2f9d2e1e0157b75530cc1a9be3}
+
+
+Loads an objects file. 
+
+Loads an objects file and returns the result as a bool.
+
+
+\begin{DoxyParams}{Parameters}
+{\em a\-\_\-cc\-Objects\-File} & Path to the objects file \\
+\hline
+\end{DoxyParams}
+\hypertarget{group___maps_gaf2460c9946c6572200926dda32f96f0f}{\index{Map Handling@{Map Handling}!Set\-Map@{Set\-Map}}
+\index{Set\-Map@{Set\-Map}!Map Handling@{Map Handling}}
+\subsubsection[{Set\-Map}]{\setlength{\rightskip}{0pt plus 5cm}{\bf D\-E\-C\-L\-D\-I\-R} void Set\-Map (
+\begin{DoxyParamCaption}
+\item[{int}]{a\-\_\-i\-I\-D}
+\end{DoxyParamCaption}
+)}}\label{group___maps_gaf2460c9946c6572200926dda32f96f0f}
+
+
+Sets the current map. 
+
+Sets the map to be used for drawing and collision detection.
+
+
+\begin{DoxyParams}{Parameters}
+{\em a\-\_\-i\-I\-D} & The map I\-D \\
+\hline
+\end{DoxyParams}
+\hypertarget{group___maps_gac5607bacc1c92a6734b25bf0659831a5}{\index{Map Handling@{Map Handling}!Toggle\-Map\-Drawing@{Toggle\-Map\-Drawing}}
+\index{Toggle\-Map\-Drawing@{Toggle\-Map\-Drawing}!Map Handling@{Map Handling}}
+\subsubsection[{Toggle\-Map\-Drawing}]{\setlength{\rightskip}{0pt plus 5cm}{\bf D\-E\-C\-L\-D\-I\-R} void Toggle\-Map\-Drawing (
+\begin{DoxyParamCaption}
+\item[{bool}]{a\-\_\-b\-Toggle}
+\end{DoxyParamCaption}
+)}}\label{group___maps_gac5607bacc1c92a6734b25bf0659831a5}
+
+
+Toggles drawing the map. 
+
+Toggles whether or not the map should be drawn.
+
+
+\begin{DoxyParams}{Parameters}
+{\em a\-\_\-b\-Toggle} & True/\-False \\
+\hline
+\end{DoxyParams}
